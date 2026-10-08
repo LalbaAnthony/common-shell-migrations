@@ -7,7 +7,4 @@ elif [ "$HOSTNAME" = "srv700069" ]; then # PERSO
     # ...
 elif [ "$HOSTNAME" = "raspberrypi" ]; then # RASPBERRYPI
     # ...
-else
-    echo "Unknown."
 fi
-echo "Done."

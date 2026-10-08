@@ -8,8 +8,4 @@ if ($env:COMPUTERNAME -eq "AGO26L004") { # Agora
     # ...
 } elseif ($env:COMPUTERNAME -eq "ZENBOOK") { # LAPTOP
     # ...
-} else {
-    Write-Host "Unknown"
 }
-
-Write-Host "Done."
